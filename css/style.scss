@@ -1,0 +1,28 @@
+@import './popup';
+
+body {
+	box-sizing: border-box;
+	margin: 0;
+}
+.layout {
+	height: 100%;
+	width: 100%;
+}
+.frameset {
+	height: 52px;
+	background-color: aqua;
+}
+.main-content {
+	display: flex;
+	height: calc(100vh - 52px);
+	.main-menu {
+		width: 220px;
+		height: 100%;
+		background-color: antiquewhite;
+	}
+	.page-content {
+		height: 100%;
+		flex: 1 1 auto;
+		background-color: azure;
+	}
+}

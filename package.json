@@ -1,0 +1,54 @@
+{
+  "name": "webpack-init-env",
+  "version": "1.0.0",
+  "description": "Webpack initial environment",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server --mode=development",
+    "watch": "webpack --watch --mode=development"
+  },
+  "keywords": [
+    "redux",
+    "webpack",
+    "react"
+  ],
+  "author": "Charlie",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/plugin-transform-template-literals": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "file-loader": "^3.0.1",
+    "mini-css-extract-plugin": "^0.4.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.9.2",
+    "replace-in-file-webpack-plugin": "^1.0.6",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.4.1",
+    "react-modal": "^3.10.1",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  }
+}
